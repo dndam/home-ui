@@ -6,8 +6,20 @@
     {% endblock %}
     <!--Main layout-->
     <main>
-        <div class="container">
-            lorem ipsum
+        <div class="container-fluid">
+            <div class="row" style="border:1px solid red;">
+                <div class="col-sm-12" style="border:1px solid cyan;">
+                    Level 1: .col-sm-12
+                    <div class="row" style="border:1px solid yellow;">
+                        <div class="col-6 col-sm-6">
+                            Level 2: .col-8 .col-sm-6
+                        </div>
+                        <div class="col-6 col-sm-6">
+                            Level 2: .col-4 .col-sm-6
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <!--Main layout-->
