@@ -3,5 +3,17 @@
 }
 
 .humidity {
-  background-color:blue;
+  background-color: #1997c6;
+}
+.outside {
+  background-color: #1BC98E;
+}
+.smiley {
+  font-size: 5rem;
+}
+.fa-thermometer-half {font-size: 4rem;}
+
+@include media-breakpoint-up(lg) {
+  .smiley  { font-size: 10rem;  }
+  .fa-thermometer-half {font-size: 8rem;}
 }
